@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            max-width: 400px;
+            text-align: center;
+        }
+        .container h1 {
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .container h2 {
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        .container p {
+            color: #666666;
+            margin-bottom: 20px;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .support {
+            margin-top: 20px;
+            color: #999999;
+        }
+        .circle-logo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .rectangle-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Secure Payment</h1>
+        <img src="circle-logo.png" alt="Circle Logo" class="circle-logo">
+        <h2>Rana Universe 🍌🍌🍌</h2>
+        <p>Thank you for choosing our payment platform. Your payment will be processed securely and efficiently.</p>
+        <a class="btn" href="upi://pay?pa=ranauniverse1@paytm">Click here to pay</a>
+        <img src="rectangle-image.png" alt="Rectangle Image" class="rectangle-image">
+        <p class="support">If you have any questions or need assistance, please don't hesitate to contact us.</p>
+    </div>
+</body>
+</html>
